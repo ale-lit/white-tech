@@ -1,0 +1,7 @@
+.cat-menu__item {
+    position: relative;
+}
+.cat-menu__item:hover {
+    border-radius: 5px;
+    background: #f7f7f7;
+}

@@ -5,6 +5,7 @@
     gap: 10px;
     font-weight: 600;
     cursor: pointer;
+    transition: all .3s ease-in-out;
 }
 .city-change__act-city::before {
     content: '';
@@ -20,4 +21,7 @@
     width: 8px;
     height: 6px;
     display: inline-block;
+}
+.city-change__act-city:hover {
+    opacity: .5;
 }

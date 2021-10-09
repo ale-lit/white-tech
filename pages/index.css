@@ -43,6 +43,7 @@
 @import url('../blocks/header-bottom/__inner/header-bottom__inner.css');
 
 @import url('../blocks/cat-menu/cat-menu.css');
+@import url('../blocks/cat-menu/__item/cat-menu__item.css');
 @import url('../blocks/cat-menu/__link/cat-menu__link.css');
 @import url('../blocks/cat-menu/__ico/cat-menu__ico.css');
 @import url('../blocks/cat-menu/__inner-list/cat-menu__inner-list.css');
