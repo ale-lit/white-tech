@@ -2,6 +2,15 @@
 
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__inner/header__inner.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header-user-menu/header-user-menu.css');
+@import url('../blocks/header-user-menu/__item/header-user-menu__item.css');
+@import url('../blocks/header-user-menu/__item-link/header-user-menu__item-link.css');
+@import url('../blocks/header-user-menu/item-link-ico/header-user-menu__item-link-ico.css');
+@import url('../blocks/header-user-menu/item-link-ico/_min/header-user-menu__item-link-ico_min.css');
+@import url('../blocks/header-user-menu/__item-link-notice/header-user-menu__item-link-notice.css');
+@import url('../blocks/header/__all-menu-link/header__all-menu-link.css');
+@import url('../blocks/header/__border/header__border.css');
 
 @import url('../blocks/header-top/header-top.css');
 @import url('../blocks/header-top/__ya-market/header-top__ya-market.css');
@@ -23,6 +32,22 @@
 @import url('../blocks/header-contacts/__link/header-contacts__link.css');
 @import url('../blocks/header-contacts/__icon/header-contacts__icon.css');
 
-@import url('../blocks/header/');
-@import url('../blocks/header/');
-@import url('../blocks/header/');
+@import url('../blocks/header-middle/header-middle.css');
+
+@import url('../blocks/search-block/search-block.css');
+@import url('../blocks/search-block/__form/search-block__form.css');
+@import url('../blocks/search-block/__input/search-block__input.css');
+@import url('../blocks/search-block/__button/search-block__button.css');
+
+@import url('../blocks/header-bottom/header-bottom.css');
+@import url('../blocks/header-bottom/__inner/header-bottom__inner.css');
+
+@import url('../blocks/cat-menu/cat-menu.css');
+@import url('../blocks/cat-menu/__link/cat-menu__link.css');
+@import url('../blocks/cat-menu/__ico/cat-menu__ico.css');
+
+@import url('../blocks/white-service/white-service.css');
+
+@import url('../blocks');
+@import url('../blocks');
+@import url('../blocks');

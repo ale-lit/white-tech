@@ -1,0 +1,19 @@
+.cat-menu__link {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+}
+.cat-menu__link::after {
+    content: '';
+    background: url(../../../images/header/icons/svg/arrow.svg) no-repeat;
+    width: 9px;
+    height: 6px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+}

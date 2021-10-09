@@ -1,0 +1,9 @@
+.header__all-menu-link {
+    cursor: pointer;                
+}
+.header__all-menu-link path {
+    transition: all .3s ease-in-out;
+}
+.header__all-menu-link:hover path {
+    stroke: #4bb1bc;
+}

@@ -1,0 +1,10 @@
+.header__logo { 
+    background: url('../../../images/header/logo.png');
+    width: 369px;
+    height: 48px; 
+    margin-right: 10px;           
+    transition: all .3s ease-in-out;
+}
+.header__logo:hover {
+    opacity: .5;
+}

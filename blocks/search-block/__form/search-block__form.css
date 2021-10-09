@@ -1,0 +1,6 @@
+.search-block__form {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}

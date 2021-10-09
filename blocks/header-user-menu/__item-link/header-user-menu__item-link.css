@@ -1,0 +1,18 @@
+.header-user-menu__item-link {
+    color: #000;
+    text-decoration: none;
+    height: 70px;
+    display: block;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all .3s ease-in-out;
+    gap: 5px;
+    border-radius: 10px;
+}
+.header-user-menu__item-link:hover {
+    background: #f7f7f7;
+}

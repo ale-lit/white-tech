@@ -1,0 +1,10 @@
+.white-service {
+    width: 171px;
+    height: 40px;
+    background: #000 url('../../images/header/white-service.png') center 11px no-repeat;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+.white-service:hover {
+    background-color: #4bb1bc;
+}

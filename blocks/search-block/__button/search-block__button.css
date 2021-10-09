@@ -1,0 +1,15 @@
+.search-block__button {
+    border: 0;
+    background: none;
+    cursor: pointer;
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #9a9a9a;
+    background: url('../../../images/header/icons/svg/search.svg') left center no-repeat;
+    padding-left: 30px;
+    transition: all .3s ease-in-out;
+}
+.search-block__button:hover {
+    opacity: .5;
+}

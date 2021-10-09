@@ -1,0 +1,13 @@
+.header-user-menu__item-link-notice {
+    background: #4bb1bc;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 11px;
+    right: 18px;
+    padding: 2px 8px;
+    border-radius: 8px 8px 8px 0px;
+    box-sizing: border-box;
+}
