@@ -1,0 +1,17 @@
+.cat-menu__inner-list {
+    position: absolute;
+    margin: 0;
+    list-style-type: none;
+    background: #fff;
+    width: 300px;
+    z-index: 998;
+    padding: 5px;
+    box-shadow: 0 3px 3px #d8d8d8;
+    border-radius: 5px;
+    width: 200px;
+    display: none;
+    font-size: 16px;
+}
+.cat-menu__item:hover .cat-menu__inner-list {
+    display: block;
+}

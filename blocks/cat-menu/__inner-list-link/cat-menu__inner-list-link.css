@@ -1,0 +1,12 @@
+.cat-menu__inner-list-link {
+    color: #000;
+    text-decoration: none;
+    display: block;                
+    margin: 5px;
+    padding: 8px;                
+    line-height: 25px;
+    border-radius: 5px;
+}
+.cat-menu__inner-list-link:hover {
+    background: #f6f6f6;                
+}

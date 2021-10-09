@@ -88,49 +88,13 @@
                 </ul>
             </div>
         </div>
-        <style>
-            .cat-menu__inner-list {
-                position: absolute;
-                margin: 0;
-                list-style-type: none;
-                background: #fff;
-                width: 300px;
-                z-index: 998;
-                padding: 5px;
-                box-shadow: 0 3px 3px #d8d8d8;
-                border-radius: 5px;
-                width: 200px;
-                display: none;
-                font-size: 16px;
-            }
-            .cat-menu__inner-list-item {
-            }
-            .cat-menu__inner-list-link {
-                color: #000;
-                text-decoration: none;
-                display: block;                
-                margin: 5px;
-                padding: 8px;                
-                line-height: 25px;
-                border-radius: 5px;
-            }
-            .cat-menu__inner-list-link:hover {
-                background: #f6f6f6;                
-            }
-
-
-
-            .cat-menu li:hover .cat-menu__inner-list {
-                display: block;
-            }
-        </style>
         <div class="header-bottom">
             <div class="header-bottom__inner">
                 <svg width="38" height="40" fill="none" xmlns="http://www.w3.org/2000/svg" class="header__all-menu-link"><g clip-path="url(#a)" stroke="#000" stroke-width="4" stroke-linecap="round"><path d="M8 10H4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2ZM8 24H4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2ZM22 10h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2ZM22 24h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Z"/></g><defs><clipPath id="a"><rect width="38" height="40" rx="5" fill="#fff"/></clipPath></defs></svg>
                 <span class="header__border"></span>
                 <nav>
                     <ul class="cat-menu">
-                        <li><a href="#" class="cat-menu__link"><img src="./images/header/cat-menu/svg/smartphone.svg" alt="Смартфоны" class="cat-menu__ico"> Смартфоны</a>
+                        <li class="cat-menu__item"><a href="#" class="cat-menu__link"><img src="./images/header/cat-menu/svg/smartphone.svg" alt="Смартфоны" class="cat-menu__ico"> Смартфоны</a>
                             <ul class="cat-menu__inner-list">
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Apple</a></li>
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Samsung</a></li>
@@ -139,7 +103,7 @@
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Все остальные</a></li>
                             </ul>
                         </li>
-                        <li><a href="#" class="cat-menu__link"><img src="./images/header/cat-menu/svg/pc.svg" alt="Планшеты и ПК" class="cat-menu__ico"> Планшеты и ПК</a>
+                        <li class="cat-menu__item"><a href="#" class="cat-menu__link"><img src="./images/header/cat-menu/svg/pc.svg" alt="Планшеты и ПК" class="cat-menu__ico"> Планшеты и ПК</a>
                             <ul class="cat-menu__inner-list">
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Apple</a></li>
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Samsung</a></li>
@@ -147,7 +111,7 @@
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Все остальные</a></li>
                             </ul>
                         </li>
-                        <li><a href="#" class="cat-menu__link"><img src="./images/header/cat-menu/svg/smart.svg" alt="Умные устройства" class="cat-menu__ico"> Умные устройства</a>
+                        <li class="cat-menu__item"><a href="#" class="cat-menu__link"><img src="./images/header/cat-menu/svg/smart.svg" alt="Умные устройства" class="cat-menu__ico"> Умные устройства</a>
                             <ul class="cat-menu__inner-list">
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Apple</a></li>
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Samsung</a></li>
@@ -155,7 +119,7 @@
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Все остальные</a></li>
                             </ul>
                         </li>
-                        <li><a href="#" class="cat-menu__link"><img src="./images/header/cat-menu/svg/gadjets.svg" alt="Гаджеты" class="cat-menu__ico"> Гаджеты</a>
+                        <li class="cat-menu__item"><a href="#" class="cat-menu__link"><img src="./images/header/cat-menu/svg/gadjets.svg" alt="Гаджеты" class="cat-menu__ico"> Гаджеты</a>
                             <ul class="cat-menu__inner-list">
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Apple</a></li>
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Samsung</a></li>
@@ -163,7 +127,7 @@
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Все остальные</a></li>
                             </ul>
                         </li>
-                        <li><a href="#" class="cat-menu__link"><img src="./images/header/cat-menu/svg/audio.svg" alt="Аудиотехника" class="cat-menu__ico"> Аудиотехника</a>
+                        <li class="cat-menu__item"><a href="#" class="cat-menu__link"><img src="./images/header/cat-menu/svg/audio.svg" alt="Аудиотехника" class="cat-menu__ico"> Аудиотехника</a>
                             <ul class="cat-menu__inner-list">
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Bose</a></li>
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Bang&Olufsen</a></li>
@@ -171,7 +135,7 @@
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Все остальные</a></li>
                             </ul>
                         </li>
-                        <li><a href="#" class="cat-menu__link"><img src="./images/header/cat-menu/svg/another.svg" alt="Другое" class="cat-menu__ico"> Другое</a>
+                        <li class="cat-menu__item"><a href="#" class="cat-menu__link"><img src="./images/header/cat-menu/svg/another.svg" alt="Другое" class="cat-menu__ico"> Другое</a>
                             <ul class="cat-menu__inner-list">
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Наушники</a></li>
                                 <li class="cat-menu__inner-list-item"><a href="#" class="cat-menu__inner-list-link">Зарядные устройства</a></li>

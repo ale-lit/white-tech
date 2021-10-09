@@ -45,6 +45,8 @@
 @import url('../blocks/cat-menu/cat-menu.css');
 @import url('../blocks/cat-menu/__link/cat-menu__link.css');
 @import url('../blocks/cat-menu/__ico/cat-menu__ico.css');
+@import url('../blocks/cat-menu/__inner-list/cat-menu__inner-list.css');
+@import url('../blocks/cat-menu/__inner-list-link/cat-menu__inner-list-link.css');
 
 @import url('../blocks/white-service/white-service.css');
 
