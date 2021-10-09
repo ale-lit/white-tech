@@ -1,0 +1,10 @@
+.city-change__list-item {
+    cursor: pointer;
+    line-height: 25px;
+    margin: 5px;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+.city-change__list-item:hover {
+    background: #f6f6f6;
+}

@@ -1,0 +1,15 @@
+.city-change__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 22px;
+    z-index: 999;
+    background: #fff;
+    padding: 5px;
+    box-shadow: 0 3px 3px #d8d8d8;
+    border-radius: 5px;
+    width: 180px;
+}

@@ -1,0 +1,14 @@
+.header-contacts__item {
+    text-align: center;
+    padding-left: 16px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 4px;
+}
+.header-contacts__item::after {
+    content: '';
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    height: 15px;
+}

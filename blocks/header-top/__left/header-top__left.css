@@ -1,0 +1,6 @@
+.header-top__left {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    height: 25px;
+}

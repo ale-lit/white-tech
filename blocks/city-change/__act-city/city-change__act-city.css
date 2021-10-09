@@ -1,0 +1,23 @@
+.city-change__act-city {
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.city-change__act-city::before {
+    content: '';
+    background: url('../../../../images/icons/svg/navi.svg') no-repeat;
+    width: 12px;
+    height: 15px;
+    display: inline-block;
+    border-bottom: 2px solid #000;
+}
+.city-change__act-city::after {
+    content: '';
+    background: url('../../../../images/icons/svg/arrow-crop.svg') no-repeat;
+    width: 8px;
+    height: 6px;
+    display: inline-block;
+}

@@ -1,1 +1,28 @@
 @import url('../vendor/fonts.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__inner/header__inner.css');
+
+@import url('../blocks/header-top/header-top.css');
+@import url('../blocks/header-top/__ya-market/header-top__ya-market.css');
+@import url('../blocks/header-top/__left/header-top__left.css');
+@import url('../blocks/header-top/__right/header-top__right.css');
+@import url('../blocks/header-top/__link/header-top__link.css');
+@import url('../blocks/header-top/__menu/header-top__menu.css');
+
+@import url('../blocks/city-change/city-change.css');
+@import url('../blocks/city-change/__act-city/city-change__act-city.css');
+@import url('../blocks/city-change/__list/city-change__list.css');
+@import url('../blocks/city-change/__list-item/city-change__list-item.css');
+@import url('../blocks/city-change/__list-item/_active/city-change__list-item_active.css');
+
+@import url('../blocks/header-work-time/header-work-time.css');
+
+@import url('../blocks/header-contacts/header-contacts.css');
+@import url('../blocks/header-contacts/__item/header-contacts__item.css');
+@import url('../blocks/header-contacts/__link/header-contacts__link.css');
+@import url('../blocks/header-contacts/__icon/header-contacts__icon.css');
+
+@import url('../blocks/header/');
+@import url('../blocks/header/');
+@import url('../blocks/header/');

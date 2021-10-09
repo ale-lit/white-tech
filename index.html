@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./pages/index.css">
+    <script src="./vendor/scripts/jquery-3.6.0.min.js"></script>
+    <script src="./scripts/scripts.js"></script>
 </head>
 <body class="root">
     <style>
@@ -17,13 +19,8 @@
             min-height: 1000px; /*  убрать!!!!! */
         }
 
-        .header {            
-            border-bottom: 1px solid #f0f2f4;
-        }
-        .header__inner {
-            max-width: 1520px;
-            margin: 0 auto;
-        }
+        
+        
         
         
 
@@ -89,127 +86,34 @@
     </style>
     <header class="header">
         <div class="header__inner">
-
-            <style>
-                .header__top-line {
-                    display: flex;
-                    justify-content: space-between;
-                    padding: 27px 0 25px;
-                }
-                .header__top-line-left {
-                    display: flex;
-                    align-items: center;
-                    gap: 28px;
-                    height: 25px;
-                }
-                .header__city-change {            
-                    font-weight: 600;
-                    display: flex;
-                    align-items: center;
-                    gap: 10px;
-                }
-                .header__city-change::before {
-                    content: '';
-                    background: url('./images/icons/svg/navi.svg') no-repeat;
-                    width: 12px;
-                    height: 15px;
-                    display: inline-block;
-                    border-bottom: 2px solid #000;
-                }
-                .header__city-change::after {
-                    content: '';
-                    background: url('./images/icons/svg/arrow.svg') no-repeat;
-                    width: 8px;
-                    height: 6px;
-                    display: inline-block;
-                    cursor: pointer;
-                }
-                .header__link {
-                    color: #000;
-                    text-decoration: none;
-                    border-bottom: 1px solid #e5e5e5;
-                    transition: all .3s ease-in-out;
-                }
-                .header__link:hover {
-                    opacity: .5;
-                }
-
-                .header__nav-menu {
-                    margin: 0;
-                    padding: 0;
-                    display: flex;
-                    list-style-type: none;
-                    gap: 31px;
-                }
-
-            </style>
-            <div class="header__top-line">
-                <div class="header__top-line-left">
-                    <div class="header__city-change">Челябинск</div>
-                    <a href="#" class="header__link">Адреса</a>
-                    <a href="" style="margin-bottom: -16px;"><img src="./images/ya_market.png" alt=""></a>
-                    <ul class="header__nav-menu">
-                        <li><a href="#" class="header__link">Как купить</a></li>
-                        <li><a href="#" class="header__link">О нас</a></li>
-                        <li><a href="#" class="header__link">Акции</a></li>
-                        <li><a href="#" class="header__link">Контакты</a></li>
+            <div class="header-top">
+                <div class="header-top__left">
+                    <div class="city-change">
+                        <span class="city-change__act-city">Челябинск</span>
+                        <ul class="city-change__list">
+                            <li class="city-change__list-item">Москва</li>
+                            <li class="city-change__list-item">Санкт-Петербург</li>
+                            <li class="city-change__list-item city-change__list-item_active">Челябинск</li>
+                            <li class="city-change__list-item">Луга</li>
+                            <li class="city-change__list-item">Иннополис</li>
+                        </ul>
+                    </div>                 
+                    <a href="#" class="header-top__link" title="Адреса всех магазинов">Адреса</a>
+                    <a href="#" target="_blank" rel="noopener" class="header-top__ya-market" title="Наш магазин на Яндекс Маркете"><img src="./images/header/ya-market.png" alt="Рейтинг на Я.Маркете"></a>
+                    <ul class="header-top__menu">
+                        <li><a href="#" class="header-top__link">Как купить</a></li>
+                        <li><a href="#" class="header-top__link">О нас</a></li>
+                        <li><a href="#" class="header-top__link">Акции</a></li>
+                        <li><a href="#" class="header-top__link">Контакты</a></li>
                     </ul>
                 </div>
-
-                <style>
-                    .header__top-line-right {
-                        display: flex;
-                        align-items: center;
-                    }
-                    .header__work-time {
-                        font-weight: 500;
-                        color: #9a9a9a;
-                        margin-right: 5px;
-                    }
-                    .header__contacts {
-                        margin: 0;
-                        padding: 0;
-                        list-style-type: none;
-                        display: flex;
-                    }
-                    .header__contacts-item {
-                        text-align: center;
-                        padding-left: 16px;
-                        height: 25px;
-                        display: flex;
-                        align-items: center;
-                        gap: 20px;
-                        padding-right: 4px;
-                    }
-                    .header__contacts-link {
-                        color: #000;
-                        font-weight: 600;
-                        text-decoration: none;
-                        font-size: 20px;
-                        display: flex;
-                        align-items: center;
-                        gap: 10px;
-                        transition: all .3s ease-in-out;
-                    }
-                    .header__contacts-link:hover {
-                        opacity: .7;
-                    }
-                    .header__contacts-item::after {
-                        content: '';
-                        border-right: 1px solid rgba(0, 0, 0, 0.1);
-                        height: 15px;
-                    }
-                    .header__contacts-icons {
-                        vertical-align: middle;
-                    }
-                </style>
-                <div class="header__top-line-right">
-                    <div class="header__work-time">с 7:00 до 20:00</div>
-                    <ul class="header__contacts">
-                        <li class="header__contacts-item"><a href="tel:+73517014087" title="Позвонить нам" class="header__contacts-link"><img src="./images/icons/logos_phone.svg" alt="" class="header__contacts-icons">+7 351 701 40 87</a></li>
-                        <li class="header__contacts-item"><a href="#" class="header__contacts-link"><img src="./images/icons/logos_whatsapp.svg" alt="" class="header__contacts-icons"></a></li>
-                        <li class="header__contacts-item"><a href="#" class="header__contacts-link"><img src="./images/icons/logos_viber.svg" alt="" class="header__contacts-icons"></a></li>
-                        <li class="header__contacts-item"><a href="#" class="header__contacts-link"><img src="./images/icons/logos_telegram.svg" alt="" class="header__contacts-icons"></a></li>
+                <div class="header-top__right">
+                    <p class="header-work-time" title="Время  работы">с 7:00 до 20:00</p>
+                    <ul class="header-contacts">
+                        <li class="header-contacts__item"><a href="tel:+73517014087" title="Позвонить нам" class="header-contacts__link"><img src="./images/header/soc-icons/phone.svg" alt="Телефон" class="header-contacts__icon">+7 351 701 40 87</a></li>
+                        <li class="header-contacts__item"><a href="#" class="header-contacts__link" title="Мы в WhatsApp"><img src="./images/header/soc-icons/whatsapp.svg" alt="WhatsApp" class="header-contacts__icon"></a></li>
+                        <li class="header-contacts__item"><a href="#" class="header-contacts__link" title="Мы в Viber"><img src="./images/header/soc-icons/viber.svg" alt="Viber" class="header-contacts__icon"></a></li>
+                        <li class="header-contacts__item"><a href="#" class="header-contacts__link" title="Мы в Telegram"><img src="./images/header/soc-icons/telegram.svg" alt="Telegram" class="header-contacts__icon"></a></li>
                     </ul>
                 </div>
             </div>
@@ -326,7 +230,7 @@
                 margin: 0;
                 padding: 0;
                 list-style-type: none;
-                gap: 33px;
+                gap: 32px;
             }
             .header__cat-menu-link {
                 color: #000;
