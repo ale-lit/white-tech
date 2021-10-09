@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="root">
+    <style>
+        .root {
+            margin: 0;
+            font-size: 14px;
+            line-height: 17px;
+            font-family: 'Montserrat', 'Roboto', sans-serif;
+            min-height: 1000px; /*  убрать!!!!! */
+        }
+
+        .header {            
+            border-bottom: 1px solid #f0f2f4;
+        }
+        .header__inner {
+            max-width: 1520px;
+            margin: 0 auto;
+        }
+        
+        
+
+        .header__middle-line {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header__logo {
+            background: url('./images/header/logo.png') no-repeat;
+            width: 369px;
+            height: 48px;
+            margin-right: 10px;
+            transition: all .3s ease-in-out;
+        }
+        .header__logo:hover {
+            opacity: .5;
+        }
+
+        .search-block {
+            width: 561px;
+            height: 70px;
+            background: #f6f6f6;
+            border-radius: 5px;
+            padding: 0px 35px 0px 40px;
+            box-sizing: border-box;
+        }
+        .search-block__form {
+            display: flex;
+            justify-content: space-between;
+            height: 100%;
+            align-items: center;
+        }
+        .search-block__input {
+            border: none;
+            background: none;
+            font-family: 'Montserrat', 'Roboto', sans-serif;
+            font-weight: 500;
+            outline: none;
+            width: 100%;
+            font-size: 14px;
+        }
+        .search-block__input::placeholder {
+            color: #9a9a9a;
+        }
+        .search-block__button {
+            border: 0;
+            background: none;
+            cursor: pointer;
+            font-family: 'Montserrat', 'Roboto', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: #9a9a9a;
+            background: url('./images/icons/svg/search.svg') left center no-repeat;
+            padding-left: 30px;
+            transition: all .3s ease-in-out;
+        }
+        .search-block__button:hover {
+            opacity: .5;
+        }
+
+    </style>
+    <header class="header">
+        <div class="header__inner">
+
+            <style>
+                .header__top-line {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 27px 0 25px;
+                }
+                .header__top-line-left {
+                    display: flex;
+                    align-items: center;
+                    gap: 28px;
+                    height: 25px;
+                }
+                .header__city-change {            
+                    font-weight: 600;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+                .header__city-change::before {
+                    content: '';
+                    background: url('./images/icons/svg/navi.svg') no-repeat;
+                    width: 12px;
+                    height: 15px;
+                    display: inline-block;
+                    border-bottom: 2px solid #000;
+                }
+                .header__city-change::after {
+                    content: '';
+                    background: url('./images/icons/svg/arrow.svg') no-repeat;
+                    width: 8px;
+                    height: 6px;
+                    display: inline-block;
+                    cursor: pointer;
+                }
+                .header__link {
+                    color: #000;
+                    text-decoration: none;
+                    border-bottom: 1px solid #e5e5e5;
+                    transition: all .3s ease-in-out;
+                }
+                .header__link:hover {
+                    opacity: .5;
+                }
+
+                .header__nav-menu {
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    list-style-type: none;
+                    gap: 31px;
+                }
+
+            </style>
+            <div class="header__top-line">
+                <div class="header__top-line-left">
+                    <div class="header__city-change">Челябинск</div>
+                    <a href="#" class="header__link">Адреса</a>
+                    <a href="" style="margin-bottom: -16px;"><img src="./images/ya_market.png" alt=""></a>
+                    <ul class="header__nav-menu">
+                        <li><a href="#" class="header__link">Как купить</a></li>
+                        <li><a href="#" class="header__link">О нас</a></li>
+                        <li><a href="#" class="header__link">Акции</a></li>
+                        <li><a href="#" class="header__link">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <style>
+                    .header__top-line-right {
+                        display: flex;
+                        align-items: center;
+                    }
+                    .header__work-time {
+                        font-weight: 500;
+                        color: #9a9a9a;
+                        margin-right: 5px;
+                    }
+                    .header__contacts {
+                        margin: 0;
+                        padding: 0;
+                        list-style-type: none;
+                        display: flex;
+                    }
+                    .header__contacts-item {
+                        text-align: center;
+                        padding-left: 16px;
+                        height: 25px;
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+                        padding-right: 4px;
+                    }
+                    .header__contacts-link {
+                        color: #000;
+                        font-weight: 600;
+                        text-decoration: none;
+                        font-size: 20px;
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        transition: all .3s ease-in-out;
+                    }
+                    .header__contacts-link:hover {
+                        opacity: .7;
+                    }
+                    .header__contacts-item::after {
+                        content: '';
+                        border-right: 1px solid rgba(0, 0, 0, 0.1);
+                        height: 15px;
+                    }
+                    .header__contacts-icons {
+                        vertical-align: middle;
+                    }
+                </style>
+                <div class="header__top-line-right">
+                    <div class="header__work-time">с 7:00 до 20:00</div>
+                    <ul class="header__contacts">
+                        <li class="header__contacts-item"><a href="tel:+73517014087" title="Позвонить нам" class="header__contacts-link"><img src="./images/icons/logos_phone.svg" alt="" class="header__contacts-icons">+7 351 701 40 87</a></li>
+                        <li class="header__contacts-item"><a href="#" class="header__contacts-link"><img src="./images/icons/logos_whatsapp.svg" alt="" class="header__contacts-icons"></a></li>
+                        <li class="header__contacts-item"><a href="#" class="header__contacts-link"><img src="./images/icons/logos_viber.svg" alt="" class="header__contacts-icons"></a></li>
+                        <li class="header__contacts-item"><a href="#" class="header__contacts-link"><img src="./images/icons/logos_telegram.svg" alt="" class="header__contacts-icons"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <style>
+                
+                .header__user-menu {
+                    display: flex;
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                }
+                .header__user-menu-item {
+                    width: 135px;
+                    height: 70px;
+                }
+                .header__user-menu-item-link {
+                    color: #000;
+                    text-decoration: none;
+                    height: 70px;
+                    display: block;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    transition: all .3s ease-in-out;
+                    gap: 5px;
+                    border-radius: 10px;
+                }
+                .header__user-menu-item-link:hover {
+                    background: #f7f7f7;
+                }
+                .header__user-menu-item-link-ico {
+                    width: 30px;
+                    height: 30px;
+                }
+                .header__user-menu-item-link-ico_min {
+                    width: 25px;
+                }
+                .header__user-menu-item-link-notice {
+                    background: #4bb1bc;
+                    font-size: 12px;
+                    line-height: 15px;
+                    font-weight: 700;
+                    color: #fff;
+                    position: absolute;
+                    top: 11px;
+                    right: 18px;
+                    padding: 2px 8px;
+                    border-radius: 8px 8px 8px 0px;
+                    box-sizing: border-box;
+                }
+            </style>
+            <div class="header__middle-line">
+                <a href="#" class="header__logo"></a>
+                <div class="search-block">
+                    <form action="" method="post" class="search-block__form">
+                        <input type="text" name="" id="" placeholder="Искать технику" class="search-block__input">
+                        <input type="submit" value="Найти" class="search-block__button">
+                    </form>
+                </div>
+                <ul class="header__user-menu">
+                    <li class="header__user-menu-item">
+                        <a href="#" class="header__user-menu-item-link">
+                            <img src="./images/icons/svg/compare.svg" alt="" class="header__user-menu-item-link-ico">
+                            Сравнение
+                        </a>
+                    </li>
+                    <li class="header__user-menu-item">
+                        <a href="#" class="header__user-menu-item-link">
+                            <img src="./images/icons/svg/favorite.svg" alt="" class="header__user-menu-item-link-ico">
+                            Избранное
+                            <span class="header__user-menu-item-link-notice">2</span>
+                        </a>
+                    </li>
+                    <li class="header__user-menu-item">
+                        <a href="#" class="header__user-menu-item-link">
+                            <img src="./images/icons/svg/lk.svg" alt="" class="header__user-menu-item-link-ico">
+                            Мой кабинет
+                        </a>
+                    </li>
+                    <li class="header__user-menu-item">
+                        <a href="#" class="header__user-menu-item-link">
+                            <img src="./images/icons/svg/basket.svg" alt="" class="header__user-menu-item-link-ico header__user-menu-item-link-ico_min">
+                            Корзина
+                            <span class="header__user-menu-item-link-notice">2</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <style>
+            .header__bottom-line {
+                box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.06);
+                margin-top: 17px;
+            }
+            .header__bottom-line-inner {
+                max-width: 1520px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 75px;
+                margin: 0 auto;
+            }
+            .header__border {
+                height: 15px;
+                border-right: 1px solid rgba(0, 0, 0, 0.1);
+            }
+            .header__cat-menu {
+                display: flex;
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                gap: 33px;
+            }
+            .header__cat-menu-link {
+                color: #000;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+                height: 40px;
+                padding: 0 10px;
+            }
+            .header__cat-menu-link::after {
+                content: '';
+                background: url(./images/icons/arrow.png) no-repeat;
+                width: 9px;
+                height: 6px;
+                display: inline-block;
+                cursor: pointer;
+                margin-left: 10px;
+            }
+            .header__cat-menu-ico {
+                margin-top: -2px;
+                margin-right: 10px;
+            }
+        </style>
+        <div class="header__bottom-line">
+            <div class="header__bottom-line-inner">
+                <a href=""><img src="./images/icons/svg/menu.svg" alt=""></a>
+                <span class="header__border"></span>
+                <nav>
+                    <ul class="header__cat-menu">
+                        <li><a href="#" class="header__cat-menu-link"><img src="./images/icons/svg/smartphone.svg" alt="" class="header__cat-menu-ico"> Смартфоны</a></li>
+                        <li><a href="#" class="header__cat-menu-link"><img src="./images/icons/svg/pc.svg" alt="" class="header__cat-menu-ico"> Планшеты и ПК</a></li>
+                        <li><a href="#" class="header__cat-menu-link"><img src="./images/icons/svg/smart.svg" alt="" class="header__cat-menu-ico"> Умные устройства</a></li>
+                        <li><a href="#" class="header__cat-menu-link"><img src="./images/icons/svg/gadjets.svg" alt="" class="header__cat-menu-ico"> Гаджеты</a></li>
+                        <li><a href="#" class="header__cat-menu-link"><img src="./images/icons/svg/audio.svg" alt="" class="header__cat-menu-ico"> Аудиотехника</a></li>
+                        <li><a href="#" class="header__cat-menu-link"><img src="./images/icons/svg/another.svg" alt="" class="header__cat-menu-ico"> Другое</a></li>
+                    </ul>
+                </nav>
+                <style>
+                    .white-service {
+                        width: 171px;
+                        height: 40px;
+                        background: #000 url('./images/image\ 163.png') center 11px no-repeat;
+                        border-radius: 5px;
+                        transition: all .3s ease-in-out;
+                    }
+                    .white-service:hover {
+                        background-color: #4bb1bc;
+                    }
+                </style>
+                <a href="" class="white-service"></a>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
