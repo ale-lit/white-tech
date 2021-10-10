@@ -1,0 +1,9 @@
+.header-top__menu-link {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #e5e5e5;
+    transition: all .3s ease-in-out;
+}
+.header-top__menu-link:hover {
+    opacity: .5;
+}
