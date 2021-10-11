@@ -21,3 +21,9 @@
         right: 16px;
     }
 }
+@media screen and (max-width: 680px) {
+    .header-user-menu__item-link-notice {
+        position: static;
+        margin-left: 10px;
+    }
+}

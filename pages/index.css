@@ -8,8 +8,8 @@
 @import url('../blocks/header-user-menu/header-user-menu.css');
 @import url('../blocks/header-user-menu/__item/header-user-menu__item.css');
 @import url('../blocks/header-user-menu/__item-link/header-user-menu__item-link.css');
-@import url('../blocks/header-user-menu/item-link-ico/header-user-menu__item-link-ico.css');
-@import url('../blocks/header-user-menu/item-link-ico/_min/header-user-menu__item-link-ico_min.css');
+@import url('../blocks/header-user-menu/__item-link-ico/header-user-menu__item-link-ico.css');
+@import url('../blocks/header-user-menu/__item-link-ico/_min/header-user-menu__item-link-ico_min.css');
 @import url('../blocks/header-user-menu/__item-link-notice/header-user-menu__item-link-notice.css');
 @import url('../blocks/header/__all-menu-link/header__all-menu-link.css');
 @import url('../blocks/header/__all-menu-text/header__all-menu-text.css');
@@ -58,3 +58,4 @@
 @import url('../blocks/cat-menu/__inner-list-link/cat-menu__inner-list-link.css');
 
 @import url('../blocks/white-service/white-service.css');
+@import url('../blocks/nomobile/nomobile.css');

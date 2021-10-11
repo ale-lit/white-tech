@@ -1,0 +1,10 @@
+.header-user-menu__item-link-ico {
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width: 680px) {
+    .header-user-menu__item-link-ico {
+        width: 25px;
+        height: 25px;
+    }
+}
