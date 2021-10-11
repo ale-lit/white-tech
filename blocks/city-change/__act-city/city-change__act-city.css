@@ -25,3 +25,8 @@
 .city-change__act-city:hover {
     opacity: .5;
 }
+@media screen and (max-width: 680px) {
+    .city-change__act-city {
+        font-size: 12px;
+    }
+}

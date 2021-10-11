@@ -1,3 +1,8 @@
 .header-top__info {
     position: relative;
 }
+@media screen and (max-width: 680px) {
+    .header-top__info {
+        display: none;
+    }
+}

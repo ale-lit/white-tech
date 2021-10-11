@@ -14,6 +14,7 @@
 @import url('../blocks/header/__all-menu-link/header__all-menu-link.css');
 @import url('../blocks/header/__all-menu-text/header__all-menu-text.css');
 @import url('../blocks/header/__border/header__border.css');
+@import url('../blocks/header/__menu-mobile/header__menu-mobile.css');
 
 @import url('../blocks/header-top/header-top.css');
 @import url('../blocks/header-top/__left/header-top__left.css');

@@ -8,3 +8,13 @@
 .header__logo:hover {
     opacity: .5;
 }
+@media screen and (max-width: 680px) {
+    .header__logo {
+        background: url(../../../images/header/logo-min.png);
+        min-width: 260px;
+        height: 19px;
+        position: absolute;
+        top: -124px;
+        left: calc((100vw - 260px) / 2);
+    }
+}

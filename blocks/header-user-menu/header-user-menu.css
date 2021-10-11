@@ -4,3 +4,8 @@
     margin: 0;
     padding: 0 0 0 20px;
 }
+@media screen and (max-width: 680px) {
+    .header-user-menu {
+        padding-left: 0;
+    }
+}

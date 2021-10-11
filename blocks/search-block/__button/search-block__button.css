@@ -23,3 +23,8 @@
         text-indent: 0;
     }
 }
+@media screen and (max-width: 890px) {
+    .search-block__button {
+        text-indent: -9999px;
+    }
+}

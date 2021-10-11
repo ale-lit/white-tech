@@ -16,3 +16,8 @@
         right: 5px;
     }
 }
+@media screen and (max-width: 890px) {
+    .header-user-menu__item-link-notice {
+        right: 16px;
+    }
+}

@@ -9,3 +9,8 @@
         gap: 25px;
     }
 }
+@media screen and (max-width: 890px) {
+    .header-top__left {
+        gap: 29px;
+    }
+}

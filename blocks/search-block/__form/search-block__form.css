@@ -14,3 +14,8 @@
         padding: 0 14px 0 18px;
     }
 }
+@media screen and (max-width: 890px) {
+    .search-block__form {
+        padding: 0 0 0 19px;
+    }
+}

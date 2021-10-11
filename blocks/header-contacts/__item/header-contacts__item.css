@@ -30,3 +30,8 @@
         display: block;
     }
 }
+@media screen and (max-width: 680px) {
+    .header-contacts__item {
+        height: 15px;
+    }
+}

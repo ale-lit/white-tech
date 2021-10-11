@@ -20,3 +20,16 @@
         height: 40px;
     }
 }
+@media screen and (max-width: 890px) {
+    .search-block {
+        width: 309px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .search-block {
+        top: -57px;
+        left: 30px;
+        width: calc(100vw - 60px);
+        padding: 0;
+    }
+}

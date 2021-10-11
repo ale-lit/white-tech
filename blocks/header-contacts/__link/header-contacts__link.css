@@ -11,3 +11,8 @@
 .header-contacts__link:hover {
     opacity: .7;
 }
+@media screen and (max-width: 680px) {
+    .header-contacts__link {
+        font-size: 12px;
+    }
+}

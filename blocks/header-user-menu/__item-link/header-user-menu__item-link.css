@@ -16,3 +16,11 @@
 .header-user-menu__item-link:hover {
     background: #f7f7f7;
 }
+@media screen and (max-width: 680px) {
+    .header-user-menu__item-link {
+        font-size: 0;
+        height: auto;
+        gap: 0;
+        flex-direction: row;
+    }
+}

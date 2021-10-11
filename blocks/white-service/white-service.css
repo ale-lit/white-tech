@@ -8,3 +8,8 @@
 .white-service:hover {
     background-color: #4bb1bc;
 }
+@media screen and (max-width: 680px) {
+    .white-service {
+        display: none;
+    }
+}
