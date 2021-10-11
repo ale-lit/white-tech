@@ -9,3 +9,8 @@
         padding-right: 0;
     }
 }
+@media screen and (max-width: 1115px) {
+    .header-work-time {
+        display: none;
+    }
+}

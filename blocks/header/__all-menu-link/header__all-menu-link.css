@@ -7,3 +7,10 @@
 .header__all-menu-link:hover path {
     stroke: #4bb1bc;
 }
+@media screen and (max-width: 1115px) {
+    .header__all-menu-link {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+}

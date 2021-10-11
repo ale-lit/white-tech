@@ -12,6 +12,7 @@
 @import url('../blocks/header-user-menu/item-link-ico/_min/header-user-menu__item-link-ico_min.css');
 @import url('../blocks/header-user-menu/__item-link-notice/header-user-menu__item-link-notice.css');
 @import url('../blocks/header/__all-menu-link/header__all-menu-link.css');
+@import url('../blocks/header/__all-menu-text/header__all-menu-text.css');
 @import url('../blocks/header/__border/header__border.css');
 
 @import url('../blocks/header-top/header-top.css');

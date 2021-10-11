@@ -1,9 +1,15 @@
 .header__inner {
     max-width: 1520px;
     margin: 0 auto;
+    position: relative;
 }
 @media screen and (max-width: 1629px) {
     .header__inner {
         max-width: 1080px;
+    }
+}
+@media screen and (max-width: 1115px) {
+    .header__inner {
+        max-width: 849px;
     }
 }

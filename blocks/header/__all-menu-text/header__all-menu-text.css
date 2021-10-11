@@ -1,0 +1,20 @@
+.header__all-menu-text {
+    display: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 1px;
+}
+@media screen and (max-width: 1115px) {
+    .header__all-menu-text {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .header__all-menu-text::after {
+        content: '';
+        background: url(../../../images/header/icons/svg/arrow-crop.svg) no-repeat;
+        width: 8px;
+        height: 6px;
+        display: inline-block;
+    }
+}

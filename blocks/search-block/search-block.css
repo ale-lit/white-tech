@@ -11,3 +11,12 @@
         padding: 0;
     }
 }
+@media screen and (max-width: 1115px) {
+    .search-block {
+        position: absolute;
+        top: 155px;
+        left: 160px;
+        width: 508px;
+        height: 40px;
+    }
+}
