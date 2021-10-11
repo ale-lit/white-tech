@@ -15,15 +15,13 @@
     .search-block {
         position: absolute;
         top: 155px;
-        left: 160px;
-        width: 508px;
+        left: 184px;
+        width: calc(100vw - 390px);
         height: 40px;
     }
 }
 @media screen and (max-width: 890px) {
-    .search-block {
-        width: 309px;
-    }
+    
 }
 @media screen and (max-width: 680px) {
     .search-block {
