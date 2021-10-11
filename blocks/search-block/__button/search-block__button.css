@@ -13,3 +13,8 @@
 .search-block__button:hover {
     opacity: .5;
 }
+@media screen and (max-width: 1629px) {
+    .search-block__button {
+        text-indent: -9999px;
+    }
+}

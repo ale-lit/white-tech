@@ -4,3 +4,8 @@
     padding-right: 5px;
     margin: 0;
 }
+@media screen and (max-width: 1629px) {
+    .header-work-time {
+        padding-right: 0;
+    }
+}

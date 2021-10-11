@@ -11,3 +11,8 @@
     border-radius: 8px 8px 8px 0px;
     box-sizing: border-box;
 }
+@media screen and (max-width: 1629px) {
+    .header-user-menu__item-link-notice {
+        right: 5px;
+    }
+}

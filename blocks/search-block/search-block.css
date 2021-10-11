@@ -6,3 +6,8 @@
     padding: 0px 35px 0px 40px;
     box-sizing: border-box;
 }
+@media screen and (max-width: 1629px) {
+    .search-block {
+        padding: 0;
+    }
+}

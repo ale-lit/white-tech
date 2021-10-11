@@ -7,3 +7,8 @@
 .header-top__adr-link:hover {
     opacity: .5;
 }
+@media screen and (max-width: 1629px) {
+    .header-top__adr-link {
+        display: none;
+    }
+}

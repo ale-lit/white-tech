@@ -2,3 +2,8 @@
     width: 135px;
     height: 70px;
 }
+@media screen and (max-width: 1629px) {
+    .header-user-menu__item {
+        width: 105px;
+    }
+}

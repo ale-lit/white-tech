@@ -1,5 +1,7 @@
 @import url('../vendor/fonts.css');
 
+@import url('../blocks/root/root.css');
+
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__inner/header__inner.css');
 @import url('../blocks/header/__logo/header__logo.css');
@@ -19,6 +21,9 @@
 @import url('../blocks/header-top/__right/header-top__right.css');
 @import url('../blocks/header-top/__menu-link/header-top__menu-link.css');
 @import url('../blocks/header-top/__menu/header-top__menu.css');
+@import url('../blocks/header-top/__info/header-top__info.css');
+@import url('../blocks/header-top/__info-link/header-top__info-link.css');
+@import url('../blocks/header-top/__info-text/header-top__info-text.css');
 
 @import url('../blocks/city-change/city-change.css');
 @import url('../blocks/city-change/__act-city/city-change__act-city.css');
@@ -51,7 +56,3 @@
 @import url('../blocks/cat-menu/__inner-list-link/cat-menu__inner-list-link.css');
 
 @import url('../blocks/white-service/white-service.css');
-
-@import url('../blocks');
-@import url('../blocks');
-@import url('../blocks');

@@ -4,3 +4,8 @@
     height: 100%;
     align-items: center;
 }
+@media screen and (max-width: 1629px) {
+    .search-block__form {
+        padding: 0 10px 0 22px;
+    }
+}

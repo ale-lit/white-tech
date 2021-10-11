@@ -5,3 +5,8 @@
     border-radius: 5px;
     background: #f7f7f7;
 }
+@media screen and (max-width: 1629px) {
+    .cat-menu__item:nth-child(5) {
+        display: none;
+    }
+}

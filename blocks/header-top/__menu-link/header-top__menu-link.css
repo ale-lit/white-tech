@@ -7,3 +7,13 @@
 .header-top__menu-link:hover {
     opacity: .5;
 }
+@media screen and (max-width: 1629px) {
+    .header-top__menu-link {
+        line-height: 25px;
+        margin: 5px;
+        padding: 3px 5px;
+        border-radius: 5px;
+        border: 0;
+        display: block;
+    }
+}

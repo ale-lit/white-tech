@@ -5,3 +5,8 @@
     list-style-type: none;
     gap: 32px;
 }
+@media screen and (max-width: 1629px) {
+    .cat-menu {
+        gap: 10px;
+    }
+}
