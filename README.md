@@ -1,5 +1,7 @@
 # Проект: «Белая техника»
 
+<div align="center"><a href="https://ale-lit.github.io/white-tech/"><img src="https://github.com/ale-lit/ale-lit/blob/main/screens/white-tech.jpg" alt="Белая техника"></a></div>
+
 Адаптивная вёрстка &laquo;шапки&raquo; сайта по&nbsp;макету в&nbsp;Figma&nbsp;&mdash; тестовое задание на&nbsp;вакансию Frontend-разработчика. Адаптивность была реализована несколько иначе чем в&nbsp;макете&nbsp;&mdash; более оптимально под любые разрешения экранов.
 
 <div align="center">
