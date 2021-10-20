@@ -5,7 +5,7 @@
 ▼ ▼ ▼
 ------------- |
 <a href="https://ale-lit.github.io/white-tech/"><img src="https://github.com/ale-lit/ale-lit/blob/main/screens/white-tech.jpg" alt="Белая техника"></a>
-https://ale-lit.github.io/white-tech/
+| <div align="center">**https://ale-lit.github.io/white-tech/**</div> |
   
 </div>
 
